@@ -1,0 +1,31 @@
+<Defs>
+
+  <ThoughtDef>
+    <defName>Chicken_GermophobeRoomCleanliness</defName>
+    <workerClass>ChickenTraits.ThoughtWorker_GermophobeRoomCleanliness</workerClass>
+    <stages>
+      <li IsNull="True" /> <!-- outside -->
+      <li>
+        <label>germophobe in very dirty room</label>
+        <description>bread</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>germophobe in dirty room</label>
+        <description>bread</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>germophobe in clean room</label>
+        <description>bread</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>germophobe in sterile room</label>
+        <description>bread</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

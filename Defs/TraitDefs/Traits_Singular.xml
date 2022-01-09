@@ -1,7 +1,7 @@
 <Defs>
 
   <TraitDef>
-    <defName>Germophobe</defName>
+    <defName>Chicken_Germophobe</defName>
     <commonality>0.4</commonality>
     <degreeDatas>
       <li>
@@ -12,18 +12,21 @@
   </TraitDef>
 
   <TraitDef>
-    <defName>Slapdash</defName>
+    <defName>Chicken_Slapdash</defName>
     <commonality>0.4</commonality>
     <degreeDatas>
       <li>
         <label>slapdash</label>
         <description>{PAWN_nameDef} takes shortcuts wherever possible</description>
+        <disallowedInspirations>
+          <li>Inspired_Creativity</li>
+        </disallowedInspirations>
       </li>
     </degreeDatas>
   </TraitDef>
 
   <TraitDef>
-    <defName>Bookworm</defName>
+    <defName>Chicken_Bookworm</defName>
     <commonality>0.4</commonality>
     <degreeDatas>
       <li>
@@ -31,10 +34,13 @@
         <description>{PAWN_nameDef} loves books</description>
       </li>
     </degreeDatas>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
   </TraitDef>
 
   <TraitDef>
-    <defName>Musician</defName>
+    <defName>Chicken_Musician</defName>
     <commonality>0.4</commonality>
     <degreeDatas>
       <li>
@@ -42,10 +48,13 @@
         <description>{PAWN_nameDef} loves music</description>
       </li>
     </degreeDatas>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
   </TraitDef>
 
   <TraitDef>
-    <defName>Unstable</defName>
+    <defName>Chicken_Unstable</defName>
     <commonality>0.4</commonality>
     <degreeDatas>
       <li>
@@ -53,6 +62,9 @@
         <description>{PAWN_nameDef} mood fluctuates wildly</description>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>Nerves</li>
+    </conflictingTraits>
   </TraitDef>
 
 </Defs>
