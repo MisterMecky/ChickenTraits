@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ChickenTraits\Assemblies\ChickenTraits.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ChickenTraits\Source\ChickenTraits\obj\Debug\ChickenTraits.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ChickenTraits\Source\ChickenTraits\obj\Debug\ChickenTraits.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ChickenTraits\Source\ChickenTraits\obj\Debug\ChickenTraits.dll
