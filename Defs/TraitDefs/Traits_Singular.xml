@@ -1,0 +1,58 @@
+<Defs>
+
+  <TraitDef>
+    <defName>Germophobe</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>germophobe</label>
+        <description>{PAWN_nameDef} hates filth</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Slapdash</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>slapdash</label>
+        <description>{PAWN_nameDef} takes shortcuts wherever possible</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Bookworm</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>bookworm</label>
+        <description>{PAWN_nameDef} loves books</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Musician</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>musician</label>
+        <description>{PAWN_nameDef} loves music</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Unstable</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>unstable</label>
+        <description>{PAWN_nameDef} mood fluctuates wildly</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>
