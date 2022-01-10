@@ -3,25 +3,42 @@
   <ThoughtDef>
     <defName>Chicken_GermophobeRoomCleanliness</defName>
     <workerClass>ChickenTraits.ThoughtWorker_GermophobeRoomCleanliness</workerClass>
+    <requiredTraits>
+      <li>Chicken_Germophobe</li>
+    </requiredTraits>
     <stages>
-      <li IsNull="True" /> <!-- outside -->
       <li>
-        <label>germophobe in very dirty room</label>
-        <description>bread</description>
+        <label>germophobe in very dirty area</label>
+        <description>Filth everywhere! This is Awful!</description>
         <baseMoodEffect>-12</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in dirty room</label>
-        <description>bread</description>
+        <label>germophobe in dirty area</label>
+        <description>This place is so dirty. I hate it!</description>
         <baseMoodEffect>-6</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in clean room</label>
-        <description>bread</description>
+        <label>germophobe in slighty dirty area</label>
+        <description>This place could really do with a clean...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>germophobe in clean area</label>
+        <description>This place is nice and clean, I like it.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in sterile room</label>
+        <label>germophobe in sterile area</label>
+        <description>This place is sterile, I love it!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>overflow1</label>
+        <description>bread</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>overflow2</label>
         <description>bread</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
