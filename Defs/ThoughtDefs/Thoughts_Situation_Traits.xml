@@ -8,28 +8,28 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>germophobe in very dirty area</label>
+        <label>germophobe in very dirty room</label>
         <description>Filth everywhere! This is Awful!</description>
         <baseMoodEffect>-12</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in dirty area</label>
-        <description>This place is so dirty. I hate it!</description>
+        <label>germophobe in dirty room</label>
+        <description>This room is so dirty. I hate it!</description>
         <baseMoodEffect>-6</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in slighty dirty area</label>
-        <description>This place could really do with a clean...</description>
+        <label>germophobe in slighty dirty room</label>
+        <description>This room could really do with a clean...</description>
         <baseMoodEffect>-3</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in clean area</label>
-        <description>This place is nice and clean, I like it.</description>
+        <label>germophobe in clean room</label>
+        <description>This room is nice and clean, I like it.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
       <li>
-        <label>germophobe in sterile area</label>
-        <description>This place is sterile, I love it!</description>
+        <label>germophobe in sterile room</label>
+        <description>This room is sterile, I love it!</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
       <li>

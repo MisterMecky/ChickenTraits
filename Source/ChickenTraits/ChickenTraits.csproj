@@ -53,6 +53,8 @@
     <Compile Include="ChickenDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thoughts\ThoughtWorker_GermophobeRoomCleanliness.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_GermophobeVsSick.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_OutdoorsLoverOutdoors.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

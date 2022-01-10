@@ -1,6 +1,5 @@
 ﻿using RimWorld;
 using Verse;
-using Verse.AI;
 
 namespace ChickenTraits
 {
@@ -9,8 +8,7 @@ namespace ChickenTraits
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
             Room room = p.GetRoom(RegionType.Set_All);
-            //Log.Message("Bop");
-            if (room==null)
+            if (room==null || room.PsychologicallyOutdoors || room.IsDoorway)
             {
                 return ThoughtState.Inactive;
             }
